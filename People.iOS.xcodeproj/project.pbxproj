@@ -44,7 +44,7 @@
 		BF40C31B1E7EF2100006A454 = {
 			isa = PBXGroup;
 			children = (
-				BF40C3261E7EF2100006A454 /* SpotifyCodeChallenge */,
+				BF40C3261E7EF2100006A454 /* People.iOS */,
 				BF40C3251E7EF2100006A454 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,7 +57,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BF40C3261E7EF2100006A454 /* SpotifyCodeChallenge */ = {
+		BF40C3261E7EF2100006A454 /* People.iOS */ = {
 			isa = PBXGroup;
 			children = (
 				BF40C3271E7EF2100006A454 /* AppDelegate.swift */,
@@ -70,6 +70,7 @@
 				BF40C3301E7EF2100006A454 /* LaunchScreen.storyboard */,
 				BF40C3331E7EF2100006A454 /* Info.plist */,
 			);
+			name = People.iOS;
 			path = SpotifyCodeChallenge;
 			sourceTree = "<group>";
 		};
@@ -274,7 +275,7 @@
 				DEVELOPMENT_TEAM = VC999G43T3;
 				INFOPLIST_FILE = SpotifyCodeChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Zain.Developer.SpotifyCodeChallenge;
+				PRODUCT_BUNDLE_IDENTIFIER = Zain.Developer.people.iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -287,7 +288,7 @@
 				DEVELOPMENT_TEAM = VC999G43T3;
 				INFOPLIST_FILE = SpotifyCodeChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Zain.Developer.SpotifyCodeChallenge;
+				PRODUCT_BUNDLE_IDENTIFIER = Zain.Developer.people.iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
