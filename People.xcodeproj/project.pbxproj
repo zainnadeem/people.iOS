@@ -7,27 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF373E6D1E7FA7FC00A614D5 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF373E6C1E7FA7FC00A614D5 /* Button.swift */; };
-		BF40C3281E7EF2100006A454 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF40C3271E7EF2100006A454 /* AppDelegate.swift */; };
-		BF40C32A1E7EF2100006A454 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF40C3291E7EF2100006A454 /* ViewController.swift */; };
-		BF40C32D1E7EF2100006A454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF40C32B1E7EF2100006A454 /* Main.storyboard */; };
-		BF40C32F1E7EF2100006A454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF40C32E1E7EF2100006A454 /* Assets.xcassets */; };
-		BF40C3321E7EF2100006A454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF40C3301E7EF2100006A454 /* LaunchScreen.storyboard */; };
-		BF40C33A1E7EF22A0006A454 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF40C3391E7EF22A0006A454 /* APIClient.swift */; };
-		BF40C33C1E7EFB310006A454 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF40C33B1E7EFB310006A454 /* Networking.swift */; };
+		BF373E761E8020B700A614D5 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF373E6E1E8020B700A614D5 /* APIClient.swift */; };
+		BF373E771E8020B700A614D5 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF373E6F1E8020B700A614D5 /* Button.swift */; };
+		BF373E781E8020B700A614D5 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF373E701E8020B700A614D5 /* Networking.swift */; };
+		BF373E791E8020B700A614D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF373E711E8020B700A614D5 /* ViewController.swift */; };
+		BF373E7A1E8020B700A614D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF373E721E8020B700A614D5 /* AppDelegate.swift */; };
+		BF373E7B1E8020B700A614D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF373E731E8020B700A614D5 /* Assets.xcassets */; };
+		BF373E7D1E8020B700A614D5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF373E751E8020B700A614D5 /* Info.plist */; };
+		BF373E801E8021F600A614D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF373E7E1E8021F600A614D5 /* Main.storyboard */; };
+		BF373E831E8021FB00A614D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF373E811E8021FB00A614D5 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BF373E6C1E7FA7FC00A614D5 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		BF373E6E1E8020B700A614D5 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIClient.swift; path = People/APIClient.swift; sourceTree = SOURCE_ROOT; };
+		BF373E6F1E8020B700A614D5 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Button.swift; path = People/Button.swift; sourceTree = SOURCE_ROOT; };
+		BF373E701E8020B700A614D5 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Networking.swift; path = People/Networking.swift; sourceTree = SOURCE_ROOT; };
+		BF373E711E8020B700A614D5 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = People/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		BF373E721E8020B700A614D5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = People/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		BF373E731E8020B700A614D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = People/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		BF373E751E8020B700A614D5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = People/Info.plist; sourceTree = SOURCE_ROOT; };
+		BF373E7F1E8021F600A614D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = People/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		BF373E821E8021FB00A614D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = People/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		BF40C3241E7EF2100006A454 /* SpotifyCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF40C3271E7EF2100006A454 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF40C3291E7EF2100006A454 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BF40C32C1E7EF2100006A454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BF40C32E1E7EF2100006A454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BF40C3311E7EF2100006A454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BF40C3331E7EF2100006A454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF40C3391E7EF22A0006A454 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
-		BF40C33B1E7EFB310006A454 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +45,7 @@
 		BF40C31B1E7EF2100006A454 = {
 			isa = PBXGroup;
 			children = (
-				BF40C3261E7EF2100006A454 /* People.iOS */,
+				BF40C3261E7EF2100006A454 /* People */,
 				BF40C3251E7EF2100006A454 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,20 +58,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BF40C3261E7EF2100006A454 /* People.iOS */ = {
+		BF40C3261E7EF2100006A454 /* People */ = {
 			isa = PBXGroup;
 			children = (
-				BF40C3271E7EF2100006A454 /* AppDelegate.swift */,
-				BF40C3291E7EF2100006A454 /* ViewController.swift */,
-				BF373E6C1E7FA7FC00A614D5 /* Button.swift */,
-				BF40C3391E7EF22A0006A454 /* APIClient.swift */,
-				BF40C33B1E7EFB310006A454 /* Networking.swift */,
-				BF40C32B1E7EF2100006A454 /* Main.storyboard */,
-				BF40C32E1E7EF2100006A454 /* Assets.xcassets */,
-				BF40C3301E7EF2100006A454 /* LaunchScreen.storyboard */,
-				BF40C3331E7EF2100006A454 /* Info.plist */,
+				BF373E811E8021FB00A614D5 /* LaunchScreen.storyboard */,
+				BF373E7E1E8021F600A614D5 /* Main.storyboard */,
+				BF373E6E1E8020B700A614D5 /* APIClient.swift */,
+				BF373E6F1E8020B700A614D5 /* Button.swift */,
+				BF373E701E8020B700A614D5 /* Networking.swift */,
+				BF373E711E8020B700A614D5 /* ViewController.swift */,
+				BF373E721E8020B700A614D5 /* AppDelegate.swift */,
+				BF373E731E8020B700A614D5 /* Assets.xcassets */,
+				BF373E751E8020B700A614D5 /* Info.plist */,
 			);
-			name = People.iOS;
+			name = People;
 			path = SpotifyCodeChallenge;
 			sourceTree = "<group>";
 		};
@@ -111,7 +112,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BF40C31F1E7EF2100006A454 /* Build configuration list for PBXProject "SpotifyCodeChallenge" */;
+			buildConfigurationList = BF40C31F1E7EF2100006A454 /* Build configuration list for PBXProject "People" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -134,9 +135,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF40C3321E7EF2100006A454 /* LaunchScreen.storyboard in Resources */,
-				BF40C32F1E7EF2100006A454 /* Assets.xcassets in Resources */,
-				BF40C32D1E7EF2100006A454 /* Main.storyboard in Resources */,
+				BF373E7D1E8020B700A614D5 /* Info.plist in Resources */,
+				BF373E7B1E8020B700A614D5 /* Assets.xcassets in Resources */,
+				BF373E831E8021FB00A614D5 /* LaunchScreen.storyboard in Resources */,
+				BF373E801E8021F600A614D5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,29 +149,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF373E6D1E7FA7FC00A614D5 /* Button.swift in Sources */,
-				BF40C32A1E7EF2100006A454 /* ViewController.swift in Sources */,
-				BF40C3281E7EF2100006A454 /* AppDelegate.swift in Sources */,
-				BF40C33A1E7EF22A0006A454 /* APIClient.swift in Sources */,
-				BF40C33C1E7EFB310006A454 /* Networking.swift in Sources */,
+				BF373E771E8020B700A614D5 /* Button.swift in Sources */,
+				BF373E791E8020B700A614D5 /* ViewController.swift in Sources */,
+				BF373E781E8020B700A614D5 /* Networking.swift in Sources */,
+				BF373E7A1E8020B700A614D5 /* AppDelegate.swift in Sources */,
+				BF373E761E8020B700A614D5 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BF40C32B1E7EF2100006A454 /* Main.storyboard */ = {
+		BF373E7E1E8021F600A614D5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BF40C32C1E7EF2100006A454 /* Base */,
+				BF373E7F1E8021F600A614D5 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		BF40C3301E7EF2100006A454 /* LaunchScreen.storyboard */ = {
+		BF373E811E8021FB00A614D5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BF40C3311E7EF2100006A454 /* Base */,
+				BF373E821E8021FB00A614D5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -273,7 +275,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VC999G43T3;
-				INFOPLIST_FILE = SpotifyCodeChallenge/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/People/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Zain.Developer.people.iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,7 +288,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VC999G43T3;
-				INFOPLIST_FILE = SpotifyCodeChallenge/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/People/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Zain.Developer.people.iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -297,7 +299,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BF40C31F1E7EF2100006A454 /* Build configuration list for PBXProject "SpotifyCodeChallenge" */ = {
+		BF40C31F1E7EF2100006A454 /* Build configuration list for PBXProject "People" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF40C3341E7EF2100006A454 /* Debug */,

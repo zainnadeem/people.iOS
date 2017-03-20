@@ -17,7 +17,7 @@
                BlueprintIdentifier = "BF40C3231E7EF2100006A454"
                BuildableName = "SpotifyCodeChallenge.app"
                BlueprintName = "SpotifyCodeChallenge"
-               ReferencedContainer = "container:SpotifyCodeChallenge.xcodeproj">
+               ReferencedContainer = "container:People.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
             BlueprintIdentifier = "BF40C3231E7EF2100006A454"
             BuildableName = "SpotifyCodeChallenge.app"
             BlueprintName = "SpotifyCodeChallenge"
-            ReferencedContainer = "container:SpotifyCodeChallenge.xcodeproj">
+            ReferencedContainer = "container:People.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,7 +58,7 @@
             BlueprintIdentifier = "BF40C3231E7EF2100006A454"
             BuildableName = "SpotifyCodeChallenge.app"
             BlueprintName = "SpotifyCodeChallenge"
-            ReferencedContainer = "container:SpotifyCodeChallenge.xcodeproj">
+            ReferencedContainer = "container:People.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -77,7 +77,7 @@
             BlueprintIdentifier = "BF40C3231E7EF2100006A454"
             BuildableName = "SpotifyCodeChallenge.app"
             BlueprintName = "SpotifyCodeChallenge"
-            ReferencedContainer = "container:SpotifyCodeChallenge.xcodeproj">
+            ReferencedContainer = "container:People.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
