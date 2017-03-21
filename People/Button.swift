@@ -10,6 +10,8 @@ import Foundation
 
 import UIKit
 
+//custom button for view controller
+
 class Button: UIButton {
     
     override init(frame: CGRect) {

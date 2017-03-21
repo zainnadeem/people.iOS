@@ -15,8 +15,11 @@ class APIClient {
     let defaultSession = URLSession(configuration: URLSessionConfiguration.default)
     var dataTask: URLSessionDataTask?
     
-    //attributes: id, name : “Sean”, favoriteCity : “New York”
+    /* function for all requests: 
+     Takes in Parameters, the request type, and the path that will be appeneded to the base URL.
     
+    
+    */
     func APICall(params: [String: AnyObject], requestMethod: Method, path: String, completion: @escaping (_ success: Bool) -> Void) {
         
         //request to create the user
@@ -38,15 +41,19 @@ class APIClient {
                 if(httpResponse.statusCode == 200) {
                     if let data = data {
                         
+                        //if server returns one user
                             let json = try! JSONSerialization.jsonObject(with: data, options: []) as? [String:AnyObject]
                         if let userInfo = json {
                             print(userInfo)
                         }else{
+                            //if server return multiple users
                             let json = try! JSONSerialization.jsonObject(with: data, options: []) as? [[String:AnyObject]]
                             print(json ?? "Sorry, no data.")
                         }
 
                     }
+                    
+                    // for Delete request
                 }else if(httpResponse.statusCode == 204){
                     print("Deleted User Info")
                 }

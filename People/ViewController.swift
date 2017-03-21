@@ -12,16 +12,15 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    lazy var logo: UIImageView = UIImageView()
+    lazy var logo:          UIImageView = UIImageView()
     
-    lazy var firstButton: Button = Button()
-    lazy var secondButton: Button = Button()
-    lazy var thirdButton: Button = Button()
-    lazy var fourthButton: Button = Button()
-    lazy var fifthButton: Button = Button()
-    lazy var sixthButton: Button = Button()
-    lazy var seventhButton: Button = Button()
-
+    lazy var firstButton:   Button      = Button()
+    lazy var secondButton:  Button      = Button()
+    lazy var thirdButton:   Button      = Button()
+    lazy var fourthButton:  Button      = Button()
+    lazy var fifthButton:   Button      = Button()
+    lazy var sixthButton:   Button      = Button()
+    lazy var seventhButton: Button      = Button()
     
     let client = APIClient()
 
