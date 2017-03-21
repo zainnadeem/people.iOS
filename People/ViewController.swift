@@ -106,21 +106,11 @@ class ViewController: UIViewController {
         self.seventhButton.heightAnchor.constraint(equalTo: self.view.heightAnchor, multiplier: 0.1).isActive = true
         self.seventhButton.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 0.8).isActive = true
         self.seventhButton.setTitle("GET PEOPLE", for: .normal)
-        
-        
-//        self.view.addSubview(sean)
-//        self.sean.image = #imageLiteral(resourceName: "sean")
-//        self.sean.contentMode = .scaleAspectFit
-//        self.sean.translatesAutoresizingMaskIntoConstraints = false
-//        self.sean.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
-//        self.sean.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: 5).isActive = true
-//        self.sean.heightAnchor.constraint(equalTo: self.view.heightAnchor, multiplier: 0.2).isActive = true
-//        self.sean.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 0.2).isActive = true
-  
 
     }
     
     func setButtons(){
+        
         firstButton.addTarget(self, action: #selector(getPeople), for: .touchUpInside)
         secondButton.addTarget(self, action: #selector(postSean), for: .touchUpInside)
         thirdButton.addTarget(self, action: #selector(getSean), for: .touchUpInside)

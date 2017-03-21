@@ -24,6 +24,7 @@ class APIClient {
         let url = baseURL?.appendingPathComponent(path)
         let request = URLRequest.request(url!, method: requestMethod, params: params)
         
+        
         self.dataTask = self.defaultSession.dataTask(with: request as URLRequest) { (data, response, error) in
             
             //get returned error
@@ -36,9 +37,15 @@ class APIClient {
                 //you can also check returned response
                 if(httpResponse.statusCode == 200) {
                     if let data = data {
-                        let json = try! JSONSerialization.jsonObject(with: data, options: .allowFragments) as? [String:AnyObject]
                         
-                        print(json ?? "Sorry, no data.")
+                            let json = try! JSONSerialization.jsonObject(with: data, options: []) as? [String:AnyObject]
+                        if let userInfo = json {
+                            print(userInfo)
+                        }else{
+                            let json = try! JSONSerialization.jsonObject(with: data, options: []) as? [[String:AnyObject]]
+                            print(json ?? "Sorry, no data.")
+                        }
+
                     }
                 }else if(httpResponse.statusCode == 204){
                     print("Deleted User Info")
@@ -53,8 +60,6 @@ class APIClient {
     }
     
 }
-
-
 
 
 
